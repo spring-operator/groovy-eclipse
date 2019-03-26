@@ -37,7 +37,7 @@ import org.eclipse.jdt.ui.wizards.NewTypeWizardPage
 import org.junit.Before
 import org.junit.Test
 
-// Original source code: http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.jdt.ui.tests/ui/org/eclipse/jdt/ui/tests/wizardapi/NewTypeWizardTest.java?revision=1.8
+// Original source code: https://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.jdt.ui.tests/ui/org/eclipse/jdt/ui/tests/wizardapi/NewTypeWizardTest.java?revision=1.8
 final class NewGroovyTypeWizardTests extends GroovyEclipseTestSuite {
 
     // FIXKDV: the wizard has some options/controls that probably shouldn't be there
