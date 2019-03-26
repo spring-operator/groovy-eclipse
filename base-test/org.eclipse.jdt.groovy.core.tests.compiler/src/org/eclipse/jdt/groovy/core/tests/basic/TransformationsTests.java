@@ -718,7 +718,7 @@ public final class TransformationsTests extends GroovyCompilerTestSuite {
     @Test
     public void testWithLogging() {
         Map<String, String> options = getCompilerOptions();
-        // Taken from http://svn.codehaus.org/groovy/trunk/groovy/groovy-core/src/examples/transforms/local
+        // Taken from https://svn.codehaus.org/groovy/trunk/groovy/groovy-core/src/examples/transforms/local
         options.put(CompilerOptions.OPTIONG_GroovyClassLoaderPath, getJarPath("astTransformations/transforms.jar"));
         options.put(CompilerOptions.OPTIONG_GroovyProjectName, "Test");
 
@@ -1339,7 +1339,7 @@ public final class TransformationsTests extends GroovyCompilerTestSuite {
     public void testJDTClassNode_1731() {
         assumeTrue(isAtLeastGroovy(21));
 
-        // Test code based on article: http://www.infoq.com/articles/groovy-1.5-new
+        // Test code based on article: https://www.infoq.com/articles/groovy-1.5-new
         // The groups of tests are loosely based on the article contents - but what is really exercised here is the accessibility of
         // the described constructs across the Java/Groovy divide.
 

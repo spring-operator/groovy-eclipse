@@ -195,7 +195,7 @@ import org.codehaus.groovy.ast.Comment;
  *      and have applied the groovy.diff from java.g (1.22) by John Rose
  *      back onto the new root (1.22.4) - Jeremy Rayner (Jan 2005)
  *    o for a map of the task see...
- *      http://groovy.javanicus.com/java-g.png
+ *      https://groovy.javanicus.com/java-g.png
  *
  * Version 1.22.4.g.2
  *    o mkempf, rkleeb, Dec 2007

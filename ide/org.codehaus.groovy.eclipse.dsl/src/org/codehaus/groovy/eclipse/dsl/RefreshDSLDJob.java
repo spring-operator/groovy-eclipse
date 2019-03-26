@@ -209,7 +209,7 @@ public class RefreshDSLDJob extends Job {
 
         /**
          * Get all package fragment roots in a safe way so that concurrent modifications aren't thrown
-         * See http://jira.codehaus.org/browse/GRECLIPSE-1284
+         * See https://jira.codehaus.org/browse/GRECLIPSE-1284
          */
         private IPackageFragmentRoot[] getFragmentRoots(final IJavaProject javaProject, IProgressMonitor monitor) throws JavaModelException {
             final IPackageFragmentRoot[][] roots = new IPackageFragmentRoot[1][];

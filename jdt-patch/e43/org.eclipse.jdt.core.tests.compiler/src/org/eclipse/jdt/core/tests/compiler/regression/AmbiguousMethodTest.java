@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -267,7 +267,7 @@ public class AmbiguousMethodTest extends AbstractComparableTest {
 		);
 	}
 	public void test005() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 				"----------\n" + 
 				"1. WARNING in X.java (at line 2)\n" + 
@@ -321,7 +321,7 @@ X.java:3: name clash: <N>foo() and <S>foo() have the same erasure
  */
 	}
 	public void test006() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 		"----------\n" + 
 		"1. ERROR in X.java (at line 3)\n" + 
@@ -607,7 +607,7 @@ public void test010c() {
 	}
 	// https://bugs.eclipse.org/bugs/show_bug.cgi?id=106090
 	public void test011a() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 		"----------\n" + 
 		"1. WARNING in Combined.java (at line 2)\n" + 
@@ -659,7 +659,7 @@ X.java:3: name clash: <T#1>pickOne(Comparable<T#1>) and <T#2>pickOne(T#2) have t
 	}
 	// https://bugs.eclipse.org/bugs/show_bug.cgi?id=106090
 	public void test011b() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 		"----------\n" + 
 		"1. WARNING in Test1.java (at line 2)\n" + 
@@ -1679,7 +1679,7 @@ X.java:4: warning: [unchecked] unchecked method invocation: method pickOne in cl
 	// https://bugs.eclipse.org/bugs/show_bug.cgi?id=147647
 	// variant: having both methods in the same class should not change anything
 	public void test021() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 		"----------\n" + 
 		"1. WARNING in Y.java (at line 3)\n" + 
@@ -1806,7 +1806,7 @@ X.java:13: warning: [unchecked] unchecked method invocation: method make in clas
 	// https://bugs.eclipse.org/bugs/show_bug.cgi?id=147647
 	// variant: using instances triggers raw methods, which are ambiguous
 	public void test022() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 		"----------\n" + 
 		"1. WARNING in X.java (at line 3)\n" + 

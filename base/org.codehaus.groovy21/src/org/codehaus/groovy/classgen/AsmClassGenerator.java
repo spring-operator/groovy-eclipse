@@ -231,14 +231,14 @@ public class AsmClassGenerator extends ClassGenerator {
     
     /*
      * Classes but not interfaces should have ACC_SUPER set
-     * See http://docs.oracle.com/javase/specs/jvms/se7/html/jvms-4.html#jvms-4.7.6-300-D.2-5
+     * See https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-4.html#jvms-4.7.6-300-D.2-5
      * for what flags are allowed depending on the fact we are writing the inner class table
      * or the class itself
      */
     private int adjustedClassModifiersForInnerClassTable(ClassNode classNode) {
         int modifiers = classNode.getModifiers();
         modifiers = modifiers & ~ACC_SUPER;
-        // (JLS ¤9.1.1.1). Such a class file must not have its ACC_FINAL, ACC_SUPER or ACC_ENUM flags set.
+        // (JLS ï¿½9.1.1.1). Such a class file must not have its ACC_FINAL, ACC_SUPER or ACC_ENUM flags set.
         if (classNode.isInterface()) {
             modifiers = modifiers & ~ACC_ENUM;
             modifiers = modifiers & ~ACC_FINAL;
@@ -248,7 +248,7 @@ public class AsmClassGenerator extends ClassGenerator {
 
     /*
      * Classes but not interfaces should have ACC_SUPER set
-     * See http://docs.oracle.com/javase/specs/jvms/se7/html/jvms-4.html#jvms-4.7.6-300-D.2-5
+     * See https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-4.html#jvms-4.7.6-300-D.2-5
      * for what flags are allowed depending on the fact we are writing the inner class table
      * or the class itself
      */
@@ -269,7 +269,7 @@ public class AsmClassGenerator extends ClassGenerator {
                 modifiers = (modifiers & ~Modifier.PROTECTED) | Modifier.PUBLIC;
             }
         }
-        // (JLS ¤9.1.1.1). Such a class file must not have its ACC_FINAL, ACC_SUPER or ACC_ENUM flags set.
+        // (JLS ï¿½9.1.1.1). Such a class file must not have its ACC_FINAL, ACC_SUPER or ACC_ENUM flags set.
         if (classNode.isInterface()) {
             modifiers = modifiers & ~ACC_ENUM;
             modifiers = modifiers & ~ACC_FINAL;
@@ -610,7 +610,7 @@ public class AsmClassGenerator extends ClassGenerator {
     /**
      * Generate byte code for constants
      *
-     * @see <a href="http://java.sun.com/docs/books/vmspec/2nd-edition/html/ClassFile.doc.html#14152">Class field types</a>
+     * @see <a href="https://java.sun.com/docs/books/vmspec/2nd-edition/html/ClassFile.doc.html#14152">Class field types</a>
      */
     public void visitConstantExpression(ConstantExpression expression) {
         final String constantName = expression.getConstantName();
@@ -630,7 +630,7 @@ public class AsmClassGenerator extends ClassGenerator {
         Expression subExpression = expression.getExpression();
         // to not record the underlying MapExpression twice, 
         // we disable the assertion tracker
-        // see http://jira.codehaus.org/browse/GROOVY-3421
+        // see https://jira.codehaus.org/browse/GROOVY-3421
         controller.getAssertionWriter().disableTracker();
         subExpression.visit(this);
         controller.getOperandStack().box();

@@ -4,7 +4,7 @@
  * Adapted for Groovy-Eclipse 2.0 by Andrew Eisenberg
  *
  * IFS Institute for Software, HSR Rapperswil, Switzerland
- * http://ifs.hsr.ch/
+ * https://ifs.hsr.ch/
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

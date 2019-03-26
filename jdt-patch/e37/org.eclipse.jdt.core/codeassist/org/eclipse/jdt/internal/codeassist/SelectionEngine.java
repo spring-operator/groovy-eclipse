@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -1693,13 +1693,13 @@ public final class SelectionEngine extends Engine implements ISearchRequestor {
 	
 	/**
 	 * Implements the "Algorithm for Inheriting Method Comments" as specified for
-	 * <a href="http://java.sun.com/j2se/1.4.2/docs/tooldocs/solaris/javadoc.html#inheritingcomments">1.4.2</a>,
-	 * <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/javadoc.html#inheritingcomments">1.5</a>, and
-	 * <a href="http://java.sun.com/javase/6/docs/technotes/tools/windows/javadoc.html#inheritingcomments">1.6</a>.
+	 * <a href="https://java.sun.com/j2se/1.4.2/docs/tooldocs/solaris/javadoc.html#inheritingcomments">1.4.2</a>,
+	 * <a href="https://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/javadoc.html#inheritingcomments">1.5</a>, and
+	 * <a href="https://java.sun.com/javase/6/docs/technotes/tools/windows/javadoc.html#inheritingcomments">1.6</a>.
 	 *
 	 * <p>
 	 * Unfortunately, the implementation is broken in Javadoc implementations since 1.5, see
-	 * <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6376959">Sun's bug</a>.
+	 * <a href="https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6376959">Sun's bug</a>.
 	 * </p>
 	 *
 	 * <p>

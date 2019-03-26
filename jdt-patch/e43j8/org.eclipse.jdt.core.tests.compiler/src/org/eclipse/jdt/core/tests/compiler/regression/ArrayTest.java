@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -51,7 +51,7 @@ public void test001() {
 }
 
 /**
- * http://dev.eclipse.org/bugs/show_bug.cgi?id=28615
+ * https://dev.eclipse.org/bugs/show_bug.cgi?id=28615
  */
 public void test002() {
 	this.runConformTest(
@@ -67,7 +67,7 @@ public void test002() {
 		"-0.0");
 }
 /**
- * http://dev.eclipse.org/bugs/show_bug.cgi?id=28615
+ * https://dev.eclipse.org/bugs/show_bug.cgi?id=28615
  */
 public void test003() {
 	this.runConformTest(
@@ -83,7 +83,7 @@ public void test003() {
 		"0.0");
 }
 /**
- * http://dev.eclipse.org/bugs/show_bug.cgi?id=28615
+ * https://dev.eclipse.org/bugs/show_bug.cgi?id=28615
  */
 public void test004() {
 	this.runConformTest(
@@ -99,7 +99,7 @@ public void test004() {
 		"0");
 }
 /**
- * http://bugs.eclipse.org/bugs/show_bug.cgi?id=37387
+ * https://bugs.eclipse.org/bugs/show_bug.cgi?id=37387
  */
 public void test005() throws Exception {
 	this.runConformTest(
@@ -140,7 +140,7 @@ public void test005() throws Exception {
 	}
 }
 /**
- * http://dev.eclipse.org/bugs/show_bug.cgi?id=80597
+ * https://dev.eclipse.org/bugs/show_bug.cgi?id=80597
  */
 public void test006() {
 	this.runNegativeTest(
@@ -160,7 +160,7 @@ public void test006() {
 		"----------\n");
 }
 /**
- * http://bugs.eclipse.org/bugs/show_bug.cgi?id=85203
+ * https://bugs.eclipse.org/bugs/show_bug.cgi?id=85203
  */
 public void test007() {
 	this.runConformTest(
@@ -182,7 +182,7 @@ public void test007() {
 		"");
 }
 /**
- * http://bugs.eclipse.org/bugs/show_bug.cgi?id=85125
+ * https://bugs.eclipse.org/bugs/show_bug.cgi?id=85125
  */
 public void test008() {
 	this.runConformTest(

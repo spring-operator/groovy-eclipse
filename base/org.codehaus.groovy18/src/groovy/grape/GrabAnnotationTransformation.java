@@ -424,7 +424,7 @@ public class GrabAnnotationTransformation extends ClassCodeVisitorSupport implem
         }
 
         if (allstr.contains("#")) {
-            // see: http://ant.apache.org/ivy/history/latest-milestone/textual.html
+            // see: https://ant.apache.org/ivy/history/latest-milestone/textual.html
             Matcher m = IVY_PATTERN.matcher(allstr);
             if (!m.find()) return;
             if (m.group(1) == null || m.group(2) == null) return;
@@ -436,7 +436,7 @@ public class GrabAnnotationTransformation extends ClassCodeVisitorSupport implem
             node.getMembers().remove("value");
         } else if (allstr.contains(":")) {
             // assume gradle syntax
-            // see: http://www.gradle.org/latest/docs/userguide/dependency_management.html#sec:how_to_declare_your_dependencies
+            // see: https://www.gradle.org/latest/docs/userguide/dependency_management.html#sec:how_to_declare_your_dependencies
             String ext = "";
             String[] parts;
             if (allstr.contains("@")) {

@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     Walter Harley (eclipse@cafewalter.com) - initial implementation
@@ -31,7 +31,7 @@ import org.eclipse.jdt.core.tests.util.Util;
 
 /**
  * Tests to verify that annotation changes cause recompilation of dependent types.
- * See http://bugs.eclipse.org/149768 
+ * See https://bugs.eclipse.org/149768 
  */
 public class AnnotationDependencyTests extends BuilderTests {
 	private IPath srcRoot = null;
@@ -154,7 +154,7 @@ public class AnnotationDependencyTests extends BuilderTests {
 
 	/**
 	 * This test makes sure that changing an annotation on type A causes type B
-	 * to be recompiled, if B references A.  See http://bugs.eclipse.org/149768
+	 * to be recompiled, if B references A.  See https://bugs.eclipse.org/149768
 	 */
 	public void testTypeAnnotationDependency() throws Exception
 	{
@@ -188,7 +188,7 @@ public class AnnotationDependencyTests extends BuilderTests {
 	/**
 	 * This test makes sure that changing an annotation on a field within type A 
 	 * causes type B to be recompiled, if B references A.  
-	 * See http://bugs.eclipse.org/149768
+	 * See https://bugs.eclipse.org/149768
 	 */
 	public void testFieldAnnotationDependency() throws Exception
 	{
@@ -226,7 +226,7 @@ public class AnnotationDependencyTests extends BuilderTests {
 	/**
 	 * This test makes sure that changing an annotation on a method within type A 
 	 * causes type B to be recompiled, if B references A.  
-	 * See http://bugs.eclipse.org/149768
+	 * See https://bugs.eclipse.org/149768
 	 */
 	public void testMethodAnnotationDependency() throws Exception
 	{
@@ -265,7 +265,7 @@ public class AnnotationDependencyTests extends BuilderTests {
 	 * This test makes sure that changing an annotation on an inner type X within type A 
 	 * causes type B to be recompiled, if B references A.  
 	 * Note that B does not directly reference A.X, only A. 
-	 * See http://bugs.eclipse.org/149768
+	 * See https://bugs.eclipse.org/149768
 	 */
 	public void testInnerTypeAnnotationDependency() throws Exception
 	{
@@ -303,7 +303,7 @@ public class AnnotationDependencyTests extends BuilderTests {
 	/**
 	 * This test makes sure that changing an annotation on a type A
 	 * does not cause type B to be recompiled, if B does not reference A.  
-	 * See http://bugs.eclipse.org/149768
+	 * See https://bugs.eclipse.org/149768
 	 */
 	public void testUnrelatedTypeAnnotationDependency() throws Exception
 	{

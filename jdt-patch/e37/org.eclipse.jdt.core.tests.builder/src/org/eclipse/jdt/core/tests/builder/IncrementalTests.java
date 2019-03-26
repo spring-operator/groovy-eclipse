@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -150,7 +150,7 @@ public class IncrementalTests extends BuilderTests {
 	}
 
 	/*
-	 * http://bugs.eclipse.org/bugs/show_bug.cgi?id=17329
+	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=17329
 	 */
 	public void testRenameMainType() throws JavaModelException {
 		IPath projectPath = env.addProject("Project"); //$NON-NLS-1$
@@ -210,7 +210,7 @@ public class IncrementalTests extends BuilderTests {
 	}
 
 	/*
-	 * http://bugs.eclipse.org/bugs/show_bug.cgi?id=17807
+	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=17807
 	 * case 1
 	 */
 	public void testRemoveSecondaryType() throws JavaModelException {
@@ -280,7 +280,7 @@ public class IncrementalTests extends BuilderTests {
 	}
 
 	/*
-	 * http://bugs.eclipse.org/bugs/show_bug.cgi?id=17807
+	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=17807
 	 * case 2
 	 */
 	public void testRemoveSecondaryType2() throws JavaModelException {
@@ -586,7 +586,7 @@ public class IncrementalTests extends BuilderTests {
 		expectingNoProblems();
 	}
 
-	// http://dev.eclipse.org/bugs/show_bug.cgi?id=27658
+	// https://dev.eclipse.org/bugs/show_bug.cgi?id=27658
 	public void testObjectWithSuperInterfaces() throws JavaModelException {
 		try {
 			IPath projectPath = env.addProject("Project"); //$NON-NLS-1$
@@ -857,7 +857,7 @@ public class IncrementalTests extends BuilderTests {
 		expectingNoProblems();
 	}
 
-	// http://dev.eclipse.org/bugs/show_bug.cgi?id=196200 - variation
+	// https://dev.eclipse.org/bugs/show_bug.cgi?id=196200 - variation
 	public void testMissingType001() throws JavaModelException {
 
 		IPath projectPath = env.addProject("Project"); //$NON-NLS-1$
@@ -898,7 +898,7 @@ public class IncrementalTests extends BuilderTests {
 		expectingSpecificProblemFor(xPath, new Problem("X", "This method has a constructor name", xPath, 73, 76, CategorizedProblem.CAT_CODE_STYLE, IMarker.SEVERITY_WARNING)); //$NON-NLS-1$ //$NON-NLS-2$
 	}
 
-	// http://dev.eclipse.org/bugs/show_bug.cgi?id=196200 - variation
+	// https://dev.eclipse.org/bugs/show_bug.cgi?id=196200 - variation
 	public void testMissingType002() throws JavaModelException {
 
 		IPath projectPath = env.addProject("Project"); //$NON-NLS-1$
@@ -942,7 +942,7 @@ public class IncrementalTests extends BuilderTests {
 		expectingSpecificProblemFor(xPath, new Problem("X", "This method has a constructor name", xPath, 73, 76, CategorizedProblem.CAT_CODE_STYLE, IMarker.SEVERITY_WARNING)); //$NON-NLS-1$ //$NON-NLS-2$
 	}
 
-	// http://dev.eclipse.org/bugs/show_bug.cgi?id=196200 - variation
+	// https://dev.eclipse.org/bugs/show_bug.cgi?id=196200 - variation
 	public void testMissingType003() throws JavaModelException {
 
 		IPath projectPath = env.addProject("Project"); //$NON-NLS-1$

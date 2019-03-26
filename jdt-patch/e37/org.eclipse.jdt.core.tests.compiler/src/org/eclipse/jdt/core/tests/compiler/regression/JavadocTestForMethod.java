@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -1951,9 +1951,9 @@ public class JavadocTestForMethod extends JavadocTest {
 					+ "	/**\n"
 					+ "	 * Valid URL references \n"
 					+ "	 *\n"
-					+ "	 * @see <a href=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Valid URL link reference</a>\n"
-					+ "	 * @see <A HREF = \"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Valid URL link reference</A>\n"
-					+ "	 * @see <a hReF = \"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Valid URL link reference</A>\n"
+					+ "	 * @see <a href=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Valid URL link reference</a>\n"
+					+ "	 * @see <A HREF = \"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Valid URL link reference</A>\n"
+					+ "	 * @see <a hReF = \"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Valid URL link reference</A>\n"
 					+ "	 */\n"
 					+ "	public void s_foo() {\n"
 					+ "	}\n"
@@ -1968,26 +1968,26 @@ public class JavadocTestForMethod extends JavadocTest {
 					+ "	/**\n"
 					+ "	 * Invalid URL references \n"
 					+ "	 *\n"
-					+ "	 * @see <a xref=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
-					+ "	 * @see <b href=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
-					+ "	 * @see <a href=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</b>\n"
+					+ "	 * @see <a xref=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
+					+ "	 * @see <b href=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
+					+ "	 * @see <a href=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</b>\n"
 					+ "	 */\n"
 					+ "	public void s_foo() {\n"
 					+ "	}\n"
 					+ "}\n" },
 			"----------\n"
 				+ "1. ERROR in X.java (at line 5)\n"
-				+ "	* @see <a xref=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
+				+ "	* @see <a xref=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
 				+ "	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"
 				+ "Javadoc: Malformed link reference\n"
 				+ "----------\n"
 				+ "2. ERROR in X.java (at line 6)\n"
-				+ "	* @see <b href=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
+				+ "	* @see <b href=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</a>\n"
 				+ "	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"
 				+ "Javadoc: Malformed link reference\n"
 				+ "----------\n"
 				+ "3. ERROR in X.java (at line 7)\n"
-				+ "	* @see <a href=\"http://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</b>\n"
+				+ "	* @see <a href=\"https://java.sun.com/j2se/1.4.2/docs/tooldocs/windows/javadoc.html\">Invalid URL link reference</b>\n"
 				+ "	                                                                                                             ^^^^\n"
 				+ "Javadoc: Malformed link reference\n"
 				+ "----------\n",

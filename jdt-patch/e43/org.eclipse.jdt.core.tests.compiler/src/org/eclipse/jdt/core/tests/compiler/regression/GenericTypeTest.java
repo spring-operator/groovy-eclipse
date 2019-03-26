@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  * 
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -17671,7 +17671,7 @@ public void test0500(){
 
 	//https://bugs.eclipse.org/bugs/show_bug.cgi?id=87956
 	public void test0561() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 				"----------\n" + 
 				"1. WARNING in X.java (at line 2)\n" + 
@@ -18082,7 +18082,7 @@ X.java:4: method foo in class X cannot be applied to given types
 	}
 	// https://bugs.eclipse.org/bugs/show_bug.cgi?id=90423 - variation
 	public void test0574() {
-		// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+		// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 		String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 				"----------\n" + 
 				"1. WARNING in X.java (at line 6)\n" + 
@@ -22560,7 +22560,7 @@ class BB extends AA<CC> { <U> BB test() {return null;} }
 }
 //https://bugs.eclipse.org/bugs/show_bug.cgi?id=97219
 public void test0706a() {
-	// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+	// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 	String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 			"----------\n" + 
 			"1. ERROR in X.java (at line 4)\n" + 
@@ -22641,7 +22641,7 @@ class BB extends AA<CC> { <U> BB test() {return null;} }
 }
 //https://bugs.eclipse.org/bugs/show_bug.cgi?id=97219
 public void test0706b() {
-	// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+	// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 	String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 			"----------\n" + 
 			"1. ERROR in X.java (at line 4)\n" + 
@@ -23886,7 +23886,7 @@ public void test0747() {
 }
 //https://bugs.eclipse.org/bugs/show_bug.cgi?id=100007
 public void test0748() {
-	// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+	// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 	String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 			"----------\n" + 
 			"1. WARNING in X.java (at line 5)\n" + 
@@ -40489,7 +40489,7 @@ public void test1180() {
 }
 //https://bugs.eclipse.org/bugs/show_bug.cgi?id=204534
 public void test1181() {
-	// http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6182950
+	// https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6182950
 	String expectedCompilerLog = (this.complianceLevel == ClassFileConstants.JDK1_6)?
 			"----------\n" + 
 			"1. ERROR in X.java (at line 2)\n" + 

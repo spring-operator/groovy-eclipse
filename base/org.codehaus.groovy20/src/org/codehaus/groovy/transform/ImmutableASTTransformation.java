@@ -85,7 +85,7 @@ public class ImmutableASTTransformation extends AbstractASTTransformation {
 
     /*
       Currently leaving BigInteger and BigDecimal in list but see:
-      http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6348370
+      https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6348370
 
       Also, Color is not final so while not normally used with child
       classes, it isn't strictly immutable. Use at your own risk.

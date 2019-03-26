@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -1111,7 +1111,7 @@ public class StaticImportTest extends AbstractComparableTest {
 			"----------\n");
 	}
 
-	//http://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
+	//https://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
 	public void test032() {
 		this.runConformTest(
 			new String[] {
@@ -1135,7 +1135,7 @@ public class StaticImportTest extends AbstractComparableTest {
 			"true");
 	}
 
-	//http://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
+	//https://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
 	public void test032b() {
 		this.runNegativeTest(
 			new String[] {
@@ -1164,7 +1164,7 @@ public class StaticImportTest extends AbstractComparableTest {
 		);
 	}
 
-	//http://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
+	//https://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
 	public void test032c() {
 		this.runConformTest(
 			new String[] {
@@ -1188,7 +1188,7 @@ public class StaticImportTest extends AbstractComparableTest {
 			"true");
 	}
 
-	//http://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
+	//https://bugs.eclipse.org/bugs/show_bug.cgi?id=97809
 	public void test032d() {
 		this.runConformTest(
 			new String[] {

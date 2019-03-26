@@ -4,7 +4,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -852,7 +852,7 @@ class ASTConverter {
 		int rightEnd = Math.max(typeEnd, argument.declarationSourceEnd);
 		/*
 		 * There is extra work to do to set the proper type positions
-		 * See PR http://bugs.eclipse.org/bugs/show_bug.cgi?id=23284
+		 * See PR https://bugs.eclipse.org/bugs/show_bug.cgi?id=23284
 		 */
 		if (isVarArgs) {
 			setTypeForSingleVariableDeclaration(variableDecl, type, extraDimensions + 1);
@@ -3037,7 +3037,7 @@ class ASTConverter {
 		int rightEnd = Math.max(typeEnd, sourceEnd);
 		/*
 		 * There is extra work to do to set the proper type positions
-		 * See PR http://bugs.eclipse.org/bugs/show_bug.cgi?id=23284
+		 * See PR https://bugs.eclipse.org/bugs/show_bug.cgi?id=23284
 		 */
 		setTypeForSingleVariableDeclaration(variableDecl, type, extraDimensions);
 		variableDecl.setSourceRange(localDeclaration.declarationSourceStart, rightEnd - localDeclaration.declarationSourceStart + 1);
@@ -3237,7 +3237,7 @@ class ASTConverter {
 				final SimpleName simpleName = new SimpleName(this.ast);
 				simpleName.internalSetIdentifier(new String(name));
 				// we need to search for the starting position of the first brace in order to set the proper length
-				// PR http://dev.eclipse.org/bugs/show_bug.cgi?id=10759
+				// PR https://dev.eclipse.org/bugs/show_bug.cgi?id=10759
 				int end = retrieveEndOfElementTypeNamePosition(sourceStart, sourceStart + length);
 				if (end == -1) {
 					end = sourceStart + length - 1;

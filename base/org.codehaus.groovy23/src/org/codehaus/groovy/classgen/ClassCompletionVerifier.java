@@ -2,7 +2,7 @@
  * Copyright (c) 2004 IBM Corporation and others.
  * All rights reserved.   The initial API is made available under the terms of
  * the Common Public License v1.0 which is available at:
- * http://www.eclipse.org/legal/cpl-v10.html
+ * https://www.eclipse.org/legal/cpl-v10.html
  * Subsequent modifications are made available under the Apache 2.0 license.
  *
  * Contributors:

@@ -3,7 +3,7 @@
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * https://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
  *     IBM Corporation - initial API and implementation
@@ -926,7 +926,7 @@ boolean isSubstituteParameterSubsignature(MethodBinding method, MethodBinding su
 boolean isUnsafeReturnTypeOverride(MethodBinding currentMethod, MethodBinding inheritedMethod) {
 	// called when currentMethod's return type is NOT compatible with inheritedMethod's return type
 
-	// JLS 3 §8.4.5: more are accepted, with an unchecked conversion
+	// JLS 3 ï¿½8.4.5: more are accepted, with an unchecked conversion
 	if (currentMethod.returnType == inheritedMethod.returnType.erasure()) {
 		TypeBinding[] currentParams = currentMethod.parameters;
 		TypeBinding[] inheritedParams = inheritedMethod.parameters;
